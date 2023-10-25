@@ -13,9 +13,9 @@ This VCS exists when a master repository is shared with a number of developers. 
 
 Distributed Version Control System 
 
-This VCS exists when each developer clones a copy of the same repository and saves this to their hard drive. They can make any changes and commit this to the copy of the code they hold on their hard drive without affecting the master repository.  This provides a developer with the opportunity to experiment with bugfixes or feature development and commit changes to their own copy of code and then only ‘push’ this to the master repository when they wish to share their work.
+This VCS exists when each developer clones a copy of the same repository and saves this to their hard drive. They can make any changes and commit this to the copy of the code they hold on their hard drive without affecting the master repository.  This provides a developer with the opportunity to experiment with bugfixes or feature development and commit changes to their own copy of code and then only ‘push’ this to the master repository when they wish to share their work.  Unlike CVCS this can mean there is less clarity of what everyone is working on which could result in individuals making amendments that result in a 'conflict'.  For example, when an amendment would be lost full or in part due to amendments also pushed by another developer on the same part of code.
 
-When a developer pushes their changes to the master repository ‘conflicts’ are highlighted. For example, if the merge would result in part or all of the edit being lost due to changes pushed by another developer on the same part of code.  In many cases, it takes intervention by a person to decide which changes should be committed.
+To prevent this, when a developer pushes their changes to the master repository ‘conflicts’ are highlighted. In many cases, it takes intervention by a person to decide which changes should be committed.
 
 Another feature of this VCS is the fact any developer can send a copy of the repository they hold to others in a team if the server becomes unavailable or corrupt.
 
